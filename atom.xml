@@ -6,7 +6,7 @@
   <link href="https://hxtzzz.github.io/atom.xml" rel="self"/>
   
   <link href="https://hxtzzz.github.io/"/>
-  <updated>2020-12-16T12:41:43.775Z</updated>
+  <updated>2020-12-20T13:34:04.630Z</updated>
   <id>https://hxtzzz.github.io/</id>
   
   <author>
@@ -17,12 +17,22 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客名字</title>
-    <link href="https://hxtzzz.github.io/2020/12/16/%E5%8D%9A%E5%AE%A2%E5%90%8D%E5%AD%97/"/>
-    <id>https://hxtzzz.github.io/2020/12/16/%E5%8D%9A%E5%AE%A2%E5%90%8D%E5%AD%97/</id>
+    <title>第一篇文章</title>
+    <link href="https://hxtzzz.github.io/2020/12/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://hxtzzz.github.io/2020/12/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2020-12-16T12:41:43.000Z</published>
-    <updated>2020-12-16T12:41:43.775Z</updated>
+    <updated>2020-12-20T13:34:04.630Z</updated>
     
+    <content type="html"><![CDATA[<p>#关于此网站的文章</p><p>刚搭完这个网站，在hexo的框架写文章需要用markdown，感觉这个好像还挺好使的样子。</p><p>##软件</p><p>采用了github官方出的atom软件进行写作，可以实时看到预览画面，而且还有语法高亮啥的功能，之后可以慢慢整。<br>软件地址：<a href="https://atom.io/">atom</a></p><p>###软件用法</p><p>也没咋琢磨透，看网上推荐了几个插件，直接安装就行了，感觉这软件贼简洁。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#关于此网站的文章&lt;/p&gt;
+&lt;p&gt;刚搭完这个网站，在hexo的框架写文章需要用markdown，感觉这个好像还挺好使的样子。&lt;/p&gt;
+&lt;p&gt;##软件&lt;/p&gt;
+&lt;p&gt;采用了github官方出的atom软件进行写作，可以实时看到预览画面，而且还有语法高亮啥的功能，之后可以慢慢整</summary>
+      
     
     
     
