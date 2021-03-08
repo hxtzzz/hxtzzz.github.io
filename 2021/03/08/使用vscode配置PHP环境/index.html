@@ -4,7 +4,7 @@
   <!-- 元数据 -->
   <meta charset="utf-8">
   <link rel="icon" href="">
-  <title>Hu Xiaotian's Blog</title>
+  <title>第三篇文章 | Hu Xiaotian's Blog</title>
   <meta name="author" content="Hu Xiaotian" />
   <meta http-equiv="Cache-Control" content="no-transform" />
   <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -13,18 +13,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="format-detection" content="telphone=no, email=no" />
   
-    <meta name="keywords" content="Computer Science, Blog, 胡啸天" />
+    <meta name="keywords" content="VScode,PHP" />
   
-  <meta name="description" content="Hu Xiaotian">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hu Xiaotian&#39;s Blog">
-<meta property="og:url" content="https://hxtzzz.github.io/archives/2021/index.html">
+  <meta name="description" content="使用VScode搭建PHP环境并调试软件：VScode2021 1.54；WAMP；Xdebug安装说明：Vscode一路next，WAMP一路next 成功运行WAMP后，在localhost中，找到phpinfo()，并复制整个网页内容，进入 https:&#x2F;&#x2F;xdebug.org&#x2F;wizard 即可找到官方推荐的Xdebug版本。下载之，并将其放入PHP version对应版本的ext文件夹中">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第三篇文章">
+<meta property="og:url" content="https://hxtzzz.github.io/2021/03/08/%E4%BD%BF%E7%94%A8vscode%E9%85%8D%E7%BD%AEPHP%E7%8E%AF%E5%A2%83/index.html">
 <meta property="og:site_name" content="Hu Xiaotian&#39;s Blog">
-<meta property="og:description" content="Hu Xiaotian">
+<meta property="og:description" content="使用VScode搭建PHP环境并调试软件：VScode2021 1.54；WAMP；Xdebug安装说明：Vscode一路next，WAMP一路next 成功运行WAMP后，在localhost中，找到phpinfo()，并复制整个网页内容，进入 https:&#x2F;&#x2F;xdebug.org&#x2F;wizard 即可找到官方推荐的Xdebug版本。下载之，并将其放入PHP version对应版本的ext文件夹中">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://hxtzzz.github.io/null">
+<meta property="article:published_time" content="2021-03-08T12:41:43.000Z">
+<meta property="article:modified_time" content="2021-03-08T14:05:18.047Z">
 <meta property="article:author" content="Hu Xiaotian">
-<meta property="article:tag" content="Computer Science, Blog, 胡啸天">
+<meta property="article:tag" content="VScode,PHP">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://hxtzzz.github.io/null">
 <meta name="twitter:site" content="@null">
@@ -123,103 +125,148 @@
                     
         <div id="main">
             <section class="col-md-8">
-  <style>
-    .post-meta time{color:#00a7e0}
-    @media (max-width:767px){.posts-collapse{margin:0 20px}
-    .posts-collapse .post-meta,.posts-collapse .post-title{display:block;width:auto;text-align:left}}
-    .posts-collapse{position:relative}
-    .posts-collapse::after{content:" ";position:absolute;top:20px;left:0;margin-left:-2px;width:4px;height:calc(100% - 35px);background:#f5f5f5;z-index:-1}
-    @media (max-width:991px){.posts-collapse{margin:0 20px}}
-    .posts-collapse .collection-title{position:relative}
-    .posts-collapse .collection-title h1,.posts-collapse .collection-title h2{margin-left:20px}.posts-collapse .collection-title small{color:#bbb;margin-left:5px}
-    .posts-collapse .collection-title::before{content:" ";position:absolute;left:0;top:50%;margin-left:-4px;margin-top:-4px;width:8px;height:8px;background:#bbb;border-radius:50%}
-    .posts-collapse .post-header{position:relative;transition-duration:.2s;transition-timing-function:ease-in-out;transition-delay:0s;transition-property:border}
-    .posts-collapse .post-header::before{content:" ";position:absolute;left:0;top:12px;width:6px;height:6px;margin-left:-4px;background:#bbb;border-radius:50%;border:1px solid #fff}
-    .posts-collapse .post-header:hover{border-bottom-color:#666}.posts-collapse .post-header:hover::before{background:#222}
-    .posts-collapse .post-meta{position:absolute;font-size:12px;left:20px;top:5px}
-    .posts-collapse .post-comments-count{display:none}
-    .posts-collapse .post-title{margin-left:70px;font-size:16px;font-weight:400;line-height:inherit}
-    .posts-collapse .post-title::after{margin-left:3px;opacity:.6}.posts-collapse .post-title a{color:#666;border-bottom:none}
-    .kratos-post-content div.arc-tags{margin-bottom:30px}
-    .arc-tags a{-webkit-box-shadow:0 1px 4px rgba(0,0,0,.1);box-shadow:0 1px 4px rgba(0,0,0,.1);border:1px solid #fff;border-radius:15px;margin:4px 8px 0 0;font-weight:500;display:inline-block;padding:0 12px;background:rgba(255,255,255,.5);font-size:16px;}
-    .arc-tags a::before{content:"# ";color:#e8a6a6}
-  </style>
-    
-        <article>
-            <div class="kratos-hentry kratos-post-inner clearfix">
-                <div class="kratos-post-content">
-                  <h2 class="title-h2 text-center">文章归档</h2>
-                  <div id="archives">
-                      
-                        <div class="arc-tags">
-                            <a class="tag-none-link" href="/tags/VScode-PHP/" rel="tag">VScode,PHP</a>
-                        </div>
-                      
-                      <div class="post-block archive post" style="margin-left: 2em;">
-                        <h3 class="archive-page-counter">当前共有 2 篇文章 (゜-゜)つロ 干杯~</h3>
-                        <div class="posts-collapse">
-                          
-                          
-                            
-                            
-                              
-                              <div class="collection-title">
-                                <a href="/archives/2021/"><h2 class="archive-year">2021</h2></a>
-                              </div>
-                            
-                            
-                              <article class="post" itemscope>
-                                <header class="post-header">
-                                  <h3 class="post-title">
-                                    
-                                        <a class="post-title-link" href="/2021/03/08/%E4%BD%BF%E7%94%A8vscode%E9%85%8D%E7%BD%AEPHP%E7%8E%AF%E5%A2%83/" itemprop="url">
-                                          <span itemprop="name">第三篇文章</span>
-                                        </a>
-                                    
-                                  </h3>
-                                  <div class="post-meta">
-                                    <time class="post-time" itemprop="dateCreated"
-                                          datetime="2021-03-08T20:41:43+08:00"
-                                          content="2021-03-08" >
-                                      03-08
-                                    </time>
-                                  </div>
-                                </header>
-                              </article>
-                            
-                          
-                            
-                            
-                            
-                              <article class="post" itemscope>
-                                <header class="post-header">
-                                  <h3 class="post-title">
-                                    
-                                        <a class="post-title-link" href="/2021/01/01/%E7%AE%97%E6%B3%95-%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/" itemprop="url">
-                                          <span itemprop="name">第二篇文章</span>
-                                        </a>
-                                    
-                                  </h3>
-                                  <div class="post-meta">
-                                    <time class="post-time" itemprop="dateCreated"
-                                          datetime="2021-01-01T20:41:43+08:00"
-                                          content="2021-01-01" >
-                                      01-01
-                                    </time>
-                                  </div>
-                                </header>
-                              </article>
-                            
-                          
-                        </div>
-                      </div>
-                  </div>
-              </div>
+    <article>
+        <div class="kratos-hentry kratos-post-inner clearfix">
+            <header class="kratos-entry-header">
+                <h1 class="kratos-entry-title text-center">第三篇文章</h1>
+                
+                <div class="kratos-post-meta text-center">
+                    <span>
+                        <i class="fa fa-calendar"></i> 2021-03-08
+                        <i class="fa fa-folder"></i> 分类于 
+                        <i class="fa fa-user"></i> 作者 Hu Xiaotian
+                        <i class="fa fa-edit"></i> 
+                        
+                        
+                            763
+                        
+                        字
+                        
+                    </span>
+                </div>
+            </header>
+            <div class="kratos-post-content">
+                
+                <hr />
+                <h1 id="使用VScode搭建PHP环境并调试"><a href="#使用VScode搭建PHP环境并调试" class="headerlink" title="使用VScode搭建PHP环境并调试"></a>使用VScode搭建PHP环境并调试</h1><h2 id="软件：VScode2021-1-54；WAMP；Xdebug"><a href="#软件：VScode2021-1-54；WAMP；Xdebug" class="headerlink" title="软件：VScode2021 1.54；WAMP；Xdebug"></a>软件：VScode2021 1.54；WAMP；Xdebug</h2><h3 id="安装说明："><a href="#安装说明：" class="headerlink" title="安装说明："></a>安装说明：</h3><p>Vscode一路next，WAMP一路next</p>
+<p>成功运行WAMP后，在localhost中，找到phpinfo()，并复制整个网页内容，<br>进入 <a target="_blank" rel="noopener" href="https://xdebug.org/wizard">https://xdebug.org/wizard</a> 即可找到官方推荐的Xdebug版本。<br>下载之，并将其放入PHP version对应版本的ext文件夹中。</p>
+<h3 id="调试说明："><a href="#调试说明：" class="headerlink" title="调试说明："></a>调试说明：</h3><p>老版本的Xdebug教程很多，但是对于3.0过后的xdebug，远程调试参数发生了变化。需要加入如下参数，因为xdebug默认端口原本为9003，需改为9000</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xdebug.mode &#x3D; debug</span><br><span class="line">xdebug.start_with_request &#x3D; yes</span><br><span class="line">xdebug.client_port &#x3D; 9000</span><br></pre></td></tr></table></figure>
+<p>同时，将<code>zend_extension</code>设置成为xdebug的路径名，我的路径名如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">F:&#x2F;wamp64&#x2F;bin&#x2F;php&#x2F;php7.3.21&#x2F;ext&#x2F;php_xdebug-3.0.3-7.3-vc15-x86_64.dll</span><br></pre></td></tr></table></figure>
+
+<p>接着，在vscode中安装如下三个插件：<br><img src="/picture/PHPvscode.png" alt="avatar"><br>并在vscode设置中搜索PHP，将<code>Executable Path</code>编辑为当前版本PHP的exe文件即可，<br>我的路径名如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">F:&#x2F;wamp64&#x2F;bin&#x2F;php&#x2F;php7.3.21&#x2F;php.exe</span><br></pre></td></tr></table></figure>
+
+<p>最后，选择vscode的调试按钮，选择语言为PHP，并在左边选择Listen For Xdebug，并在网页中输入对应的地址，即可进行断点调试啦！<br>此时的网页一直处于加载状态，<br><img src="/picture/phpdebugresult2.png" alt="avatar"><br>成果图如下：<br><img src="/picture/phpdebugresult.png" alt="avatar"></p>
+
             </div>
             
-        </article>
+                <div class="kratos-copyright text-center clearfix">
+                    <h5>本作品采用 <a rel="license nofollow" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
+                </div>
+            
+            <footer class="kratos-entry-footer clearfix">
+                
+                    <div class="post-like-donate text-center clearfix" id="post-like-donate">
+                    
+                    
+                        <a class="share" href="javascript:;"><i class="fa fa-share-alt"></i> 分享</a>
+                        <div class="share-wrap" style="display: none;">
+    <div class="share-group">
+        <a href="javascript:;" class="share-plain qq" onclick="share('qq');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-qq"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain qzone" onclick="share('qzone');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-star"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain weixin pop style-plain" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-weixin"></i>
+            </div>
+            <div class="share-int">
+                <div class="qrcode" id="wechat-qr"></div>
+                <p>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</p>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain weibo" onclick="share('weibo');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-weibo"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain facebook style-plain" onclick="share('facebook');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-facebook"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain twitter style-plain" onclick="share('twitter');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-twitter"></i>
+            </div>
+        </a>
+    </div>
+    <script type="text/javascript">
+        $(()=>{
+            new QRCode("wechat-qr", {
+                text: "https://hxtzzz.github.io/2021/03/08/%E4%BD%BF%E7%94%A8vscode%E9%85%8D%E7%BD%AEPHP%E7%8E%AF%E5%A2%83/",
+                width: 150,
+                height: 150,
+                correctLevel : QRCode.CorrectLevel.H
+            });
+        });
+        function share(dest) {
+            const qqBase        = "https://connect.qq.com/widget/shareqq/index.html?";
+            const weiboBase     = "https://service.weibo.com/share/share.php?";
+            const qzoneBase     = "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?";
+            const facebookBase  = "https://www.facebook.com/sharer/sharer.php?";
+            const twitterBase   = "https://twitter.com/intent/tweet?";
+            const hostUrl       = "https://hxtzzz.github.io/2021/03/08/%E4%BD%BF%E7%94%A8vscode%E9%85%8D%E7%BD%AEPHP%E7%8E%AF%E5%A2%83/";
+            const title         = "「第三篇文章」";
+            const excerpt       = `使用VScode搭建PHP环境并调试软件：VScode2021 1.54；WAMP；Xdebug安装说明：Vscode一路next，WAMP一路next
+成功运行WAMP后，在localhost中，找到phpinfo()，并复制整个网...`;
+            let _URL;
+            switch (dest) {
+                case "qq"       : _URL = qqBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";     break;
+                case "weibo"    : _URL = weiboBase+"url="+hostUrl+"&title="+title+excerpt;                                 break;
+                case "qzone"    : _URL = qzoneBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";  break;
+                case "facebook" : _URL = facebookBase+"u="+hostUrl;                                                        break;
+                case "twitter"  : _URL = twitterBase+"text="+title+excerpt+"&url="+hostUrl;                                break;
+            }
+            window.open(_URL);
+        };
+    </script>
+</div>
+                    
+                    </div>
+                
+                <div class="footer-tag clearfix">
+                    <div class="pull-left">
+                    <i class="fa fa-tags"></i>
+                        <a class="tag-none-link" href="/tags/VScode-PHP/" rel="tag">VScode,PHP</a>
+                    </div>
+                    <div class="pull-date">
+                    <span>最后编辑：2021-03-08</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
         
-    </section>
+            <nav class="navigation post-navigation clearfix" role="navigation">
+                
+                <div class="nav-previous clearfix">
+                    <a title=" 第二篇文章" href="/2021/01/01/算法-三数之和/">&lt; 上一篇</a>
+                </div>
+                
+                
+            </nav>
+        
+        
+    </article>
+</section>
         </div>
                 
             <section id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm">
